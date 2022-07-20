@@ -3,12 +3,8 @@
 exports[`Brand Should match snapshot 1`] = `
 <DocumentFragment>
   .c0 {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 120ms linear;
+  transition: all 120ms linear;
   color: #2678FF;
   font-size: 1.25em;
   font-weight: 700;

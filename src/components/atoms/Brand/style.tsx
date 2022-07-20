@@ -6,7 +6,6 @@ const Brand = styled(Link).attrs(() => ({
     children: 'ãcme'
 }))`
     //Position and Layout
-    flex-grow: 1;
 
     //Display and visibility
 
