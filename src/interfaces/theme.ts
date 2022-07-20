@@ -1,4 +1,4 @@
-export interface ThemePalette {
+export interface ColorVariants {
     darkest?: string
     dark?: string
     default: string
@@ -7,7 +7,9 @@ export interface ThemePalette {
     contrast: string
 }
 
-export interface NeutralPalette extends ThemePalette {
+export type ColorVariantKeys = keyof ColorVariants
+
+export interface NeutralColorVariants extends ColorVariants {
     0: string
     50: string
     100: string
@@ -26,6 +28,8 @@ export interface Sizing {
     xl: string
 }
 
+export type SizingKeys = keyof Sizing
+
 export interface Typography {
     size: Sizing,
     weight: {
@@ -39,13 +43,24 @@ export interface Typography {
     }
 }
 
+export interface Colors {
+    neutral: NeutralColorVariants,
+    primary: ColorVariants,
+    success: ColorVariants,
+    danger: ColorVariants
+}
+export type ColorKeys = keyof Colors
+
+
+export interface Animation {
+    duration: string
+    timingFunction: string
+    shorthand: string
+}
+
 export interface Theme {
-    colors: {
-        neutral: NeutralPalette,
-        primary: ThemePalette,
-        success: ThemePalette,
-        danger: ThemePalette
-    },
+    colors: Colors,
     spacing: Sizing,
-    typography: Typography
+    typography: Typography,
+    animation: Animation
 }

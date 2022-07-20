@@ -57,6 +57,11 @@ const theme: DefaultTheme = {
             semibold: "600",
             bold: "700"
         }
+    },
+    animation: {
+        duration: '0.2s',
+        timingFunction: 'ease-in',
+        shorthand: '0.2s ease-in'
     }
 }
 
