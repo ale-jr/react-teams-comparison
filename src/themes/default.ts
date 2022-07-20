@@ -59,9 +59,9 @@ const theme: DefaultTheme = {
         }
     },
     animation: {
-        duration: '0.2s',
-        timingFunction: 'ease-in',
-        shorthand: '0.2s ease-in'
+        duration: '120ms',
+        timingFunction: 'linear',
+        shorthand: '120ms linear'
     }
 }
 
