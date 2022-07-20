@@ -7,10 +7,10 @@ export interface AvatarProps {
 
 const avatarSizes: Sizing = {
     xs: '1em',
-    sm: '2em',
-    md: '3em',
-    lg: '4em',
-    xl: '5em'
+    sm: '1.5em',
+    md: '2em',
+    lg: '3em',
+    xl: '4em'
 }
 
 

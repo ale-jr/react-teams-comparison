@@ -3,8 +3,8 @@
 exports[`Avatar Should match snapshot 1`] = `
 <DocumentFragment>
   .c0 {
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
 }
 
 <img
