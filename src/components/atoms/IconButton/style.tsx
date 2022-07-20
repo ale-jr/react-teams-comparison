@@ -29,7 +29,8 @@ const IconButton = styled.button.attrs<IconButtonProps>((props) => ({
 
     //Box model (From outside in)
     border: none;
-    padding: 0;
+    border-radius: 50%;
+    padding: 2px;
 
     //Background
     background: transparent;
@@ -41,7 +42,8 @@ const IconButton = styled.button.attrs<IconButtonProps>((props) => ({
 
     //Pseudo-classes and pseudo-elements
     &:hover{
-        filter: brightness(0.8);
+        color: ${({ theme }) => theme.colors.primary.default};
+        background: ${({ theme }) => theme.colors.neutral['100']};
     }
 
     &:focus{
