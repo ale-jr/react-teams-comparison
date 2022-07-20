@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Brand Should match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #2678FF;
+  font-size: 1.25em;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover {
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+}
+
+<a
+    class="c0"
+    href="/"
+  >
+    ãcme
+  </a>
+</DocumentFragment>
+`;
