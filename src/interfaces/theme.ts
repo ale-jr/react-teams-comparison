@@ -5,20 +5,18 @@ export interface ColorVariants {
     light: string
     lightest?: string
     contrast: string
+    "0"?: string
+    "50"?: string
+    "100"?: string
+    "200"?: string
+    "300"?: string
+    "400"?: string
+    "500"?: string
+    "600"?: string
 }
 
-export type ColorVariantKeys = keyof ColorVariants
 
-export interface NeutralColorVariants extends ColorVariants {
-    0: string
-    50: string
-    100: string
-    200: string
-    300: string
-    400: string
-    500: string
-    600: string
-}
+export type ColorVariantKeys =  keyof ColorVariants
 
 export interface Sizing {
     xs: string
@@ -44,7 +42,7 @@ export interface Typography {
 }
 
 export interface Colors {
-    neutral: NeutralColorVariants,
+    neutral: ColorVariants,
     primary: ColorVariants,
     success: ColorVariants,
     danger: ColorVariants
