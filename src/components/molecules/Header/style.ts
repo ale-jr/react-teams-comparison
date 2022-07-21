@@ -22,7 +22,7 @@ export const HeaderContainer = styled.header`
     padding: ${({ theme }) => `${theme.spacing.lg} ${theme.spacing.md}`};
 
     //Background
-
+    background-color: ${({ theme }) => theme.colors.neutral['0']};
 
     //Typography
 
