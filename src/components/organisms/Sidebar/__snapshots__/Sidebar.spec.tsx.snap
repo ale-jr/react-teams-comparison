@@ -1,0 +1,426 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar Should match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-animation: enPxJo 200ms linear both;
+  animation: enPxJo 200ms linear both;
+  height: 100%;
+  border-right: 1px solid #F1F1F5;
+  padding-top: 0.5em;
+  background-color: #FFFFFF;
+}
+
+.c0 ul {
+  padding: 0;
+}
+
+.c0 ul:first-child {
+  -webkit-animation: chrjje 200ms linear both;
+  animation: chrjje 200ms linear both;
+  position: absolute;
+}
+
+.c1 {
+  list-style-type: none;
+}
+
+.c2 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 120ms linear;
+  transition: all 120ms linear;
+  padding: 0.5em 2em;
+  padding-left: calc(1em * 1);
+  color: #62656C;
+  font-weight: 400;
+  font-size: 1em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.c2:hover {
+  color: #2678FF;
+}
+
+.c2 span.title {
+  padding-left: 1em;
+}
+
+.c2 svg.icon {
+  font-size: 1.5em;
+}
+
+.c2::before {
+  -webkit-animation: dcGRDW 125ms linear both;
+  animation: dcGRDW 125ms linear both;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #2678FF;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 120ms linear;
+  transition: all 120ms linear;
+  padding: 0.5em 2em;
+  padding-left: calc(1.25em + calc(1em * 2));
+  color: #1C1E2A;
+  font-weight: 700;
+  font-size: 1em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.c3:hover {
+  color: #2678FF;
+}
+
+.c3 span.title {
+  padding-left: 1em;
+}
+
+.c3 svg.icon {
+  font-size: 1.5em;
+}
+
+.c3::before {
+  -webkit-animation: hTmvpY 125ms linear both;
+  animation: hTmvpY 125ms linear both;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #2678FF;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 120ms linear;
+  transition: all 120ms linear;
+  padding: 0.5em 2em;
+  padding-left: calc(1.25em + calc(1em * 3));
+  color: #62656C;
+  font-weight: 400;
+  font-size: 1em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.c4:hover {
+  color: #2678FF;
+}
+
+.c4 span.title {
+  padding-left: 1em;
+}
+
+.c4 svg.icon {
+  font-size: 1.5em;
+}
+
+.c4::before {
+  -webkit-animation: dcGRDW 125ms linear both;
+  animation: dcGRDW 125ms linear both;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #2678FF;
+}
+
+.c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 120ms linear;
+  transition: all 120ms linear;
+  padding: 0.5em 2em;
+  padding-left: calc(1.25em + calc(1em * 2));
+  color: #62656C;
+  font-weight: 400;
+  font-size: 1em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.c5:hover {
+  color: #2678FF;
+}
+
+.c5 span.title {
+  padding-left: 1em;
+}
+
+.c5 svg.icon {
+  font-size: 1.5em;
+}
+
+.c5::before {
+  -webkit-animation: dcGRDW 125ms linear both;
+  animation: dcGRDW 125ms linear both;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #2678FF;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 120ms linear;
+  transition: all 120ms linear;
+  padding: 0.5em 2em;
+  padding-left: calc(1.25em + calc(1em * 1));
+  color: #62656C;
+  font-weight: 400;
+  font-size: 1em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.c6:hover {
+  color: #2678FF;
+}
+
+.c6 span.title {
+  padding-left: 1em;
+}
+
+.c6 svg.icon {
+  font-size: 1.5em;
+}
+
+.c6::before {
+  -webkit-animation: dcGRDW 125ms linear both;
+  animation: dcGRDW 125ms linear both;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #2678FF;
+}
+
+@media only screen and (max-width:425px) {
+  .c0 {
+    position: absolute;
+    z-index: 98;
+    height: calc(100% - 4.875rem);
+  }
+}
+
+@media only screen and (max-width:425px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <ul>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="/"
+          level="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-house fa-fw icon"
+            data-icon="house"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="title"
+          >
+            Home
+          </span>
+        </a>
+      </li>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="/analysis"
+          level="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-house fa-fw icon"
+            data-icon="house"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="title"
+          >
+            Analysis
+          </span>
+        </a>
+      </li>
+      <ul>
+        <li
+          class="c1"
+        >
+          <a
+            class="c3"
+            href="/report"
+            level="1"
+          >
+            <span
+              class="title"
+            >
+              Survey Report
+            </span>
+          </a>
+        </li>
+        <ul>
+          <li
+            class="c1"
+          >
+            <a
+              class="c4"
+              href="/deep"
+              level="2"
+            >
+              <span
+                class="title"
+              >
+                deep
+              </span>
+            </a>
+          </li>
+        </ul>
+        <li
+          class="c1"
+        >
+          <a
+            class="c5"
+            href="/comp"
+            level="1"
+          >
+            <span
+              class="title"
+            >
+              Comparison
+            </span>
+          </a>
+        </li>
+      </ul>
+      <li
+        class="c1"
+      >
+        <a
+          class="c6"
+          href="/whatever"
+          level="0"
+        >
+          <span
+            class="title"
+          >
+            whatever
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  .c0 {
+  display: block;
+  position: fixed;
+  -webkit-animation: cjVSDq 200ms linear both;
+  animation: cjVSDq 200ms linear both;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 0;
+}
+
+@media only screen and (max-width:425px) {
+
+}
+
+@media only screen and (max-width:425px) {
+  .c0 {
+    height: 100vh;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
