@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
     //Position and Layout
-
+    position: relative;
+    z-index: 99;
 
     //Display and visibility
     display: flex;
