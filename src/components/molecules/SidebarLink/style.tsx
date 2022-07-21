@@ -31,9 +31,9 @@ const slideOut = keyframes`
 
 
 interface LinkProps {
-    level: number;
-    $hasIcon: boolean;
-    $active: boolean;
+  level: number;
+  $hasIcon: boolean;
+  $active: boolean;
 }
 export const Link = styled(ReactRouterLink) <LinkProps>`
     //Position and Layout
@@ -50,7 +50,7 @@ export const Link = styled(ReactRouterLink) <LinkProps>`
     transition: all ${({ theme }) => theme.animation.shorthand};
 
     //Box model (From outside in)
-    padding: ${({ theme }) => theme.spacing.sm} 0;
+    padding: ${({ theme }) => `${theme.spacing.sm} ${theme.spacing.xl}`};
     padding-left: ${getLinkPadding};
 
 
@@ -62,6 +62,7 @@ export const Link = styled(ReactRouterLink) <LinkProps>`
     font-weight: ${({ theme, $active }) => $active ? theme.typography.weight.bold : theme.typography.weight.regular};
     font-size: ${({ theme }) => theme.typography.size.md};
     text-decoration: none;
+    white-space: nowrap;
 
 
     //Pseudo-classes and pseudo-elements
@@ -78,7 +79,7 @@ export const Link = styled(ReactRouterLink) <LinkProps>`
     }
 
     &::before{
-        animation: ${({ $active }) => css`${$active ? slideIn : slideOut} 125ms linear both`};
+            animation: ${({ $active }) => css`${$active ? slideIn : slideOut} 125ms linear both`};
             content: "";
             position: absolute;
             left: 0;

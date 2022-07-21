@@ -8,11 +8,10 @@ interface SidebarLinkProps {
     title: string,
     active?: boolean,
     level?: number
-    onClick?: () => void
 }
 
-const SidebarLink: React.FC<SidebarLinkProps> = ({ icon, title, to, active = false, level = 0, onClick }) => {
-    return <LinkContainer onClick={onClick}>
+const SidebarLink: React.FC<SidebarLinkProps> = ({ icon, title, to, active = false, level = 0 }) => {
+    return <LinkContainer>
         <Link to={to} level={level} $hasIcon={!!icon} $active={active}>
             {icon && <FontAwesomeIcon icon={icon} className="icon" fixedWidth />}
             <span className="title">{title}</span>

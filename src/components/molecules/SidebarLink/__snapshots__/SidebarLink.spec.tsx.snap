@@ -18,13 +18,14 @@ exports[`SidebarLink Should match snapshot (active link) 1`] = `
   align-items: center;
   -webkit-transition: all 120ms linear;
   transition: all 120ms linear;
-  padding: 0.5em 0;
+  padding: 0.5em 2em;
   padding-left: calc(1em * 1);
   color: #1C1E2A;
   font-weight: 700;
   font-size: 1em;
   -webkit-text-decoration: none;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .c1:hover {
@@ -102,13 +103,14 @@ exports[`SidebarLink Should match snapshot (sublink) 1`] = `
   align-items: center;
   -webkit-transition: all 120ms linear;
   transition: all 120ms linear;
-  padding: 0.5em 0;
+  padding: 0.5em 2em;
   padding-left: calc(1em * 2);
   color: #1C1E2A;
   font-weight: 700;
   font-size: 1em;
   -webkit-text-decoration: none;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .c1:hover {
@@ -186,13 +188,14 @@ exports[`SidebarLink Should match snapshot 1`] = `
   align-items: center;
   -webkit-transition: all 120ms linear;
   transition: all 120ms linear;
-  padding: 0.5em 0;
+  padding: 0.5em 2em;
   padding-left: calc(1em * 1);
   color: #62656C;
   font-weight: 400;
   font-size: 1em;
   -webkit-text-decoration: none;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .c1:hover {
