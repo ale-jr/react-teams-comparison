@@ -25,7 +25,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeRoute, links, collapsed, preven
                 {renderLinks(links, activeRoute)}
             </ul>
         </SidebarContainer>
-        <Backdrop onClick={onClose} $collapsed={collapsed} />
+        <Backdrop onClick={onClose} $collapsed={collapsed} $preventAnimation={preventAnimation} />
     </>
 }
 

@@ -3,6 +3,9 @@
 exports[`Sidebar Should match snapshot 1`] = `
 <DocumentFragment>
   .c0 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   -webkit-animation: enPxJo 200ms linear both;
   animation: enPxJo 200ms linear both;
   height: 100%;
@@ -400,6 +403,7 @@ exports[`Sidebar Should match snapshot 1`] = `
   .c0 {
   display: block;
   position: fixed;
+  z-index: 97;
   -webkit-animation: cjVSDq 200ms linear both;
   animation: cjVSDq 200ms linear both;
   background-color: rgba(0,0,0,0.5);

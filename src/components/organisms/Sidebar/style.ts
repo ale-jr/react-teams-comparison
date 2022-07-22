@@ -11,7 +11,7 @@ export const SidebarContainer = styled.nav<SidebarContainerProps>`
 
 
     //Display and visibility
-
+    flex-shrink: 0;
 
     //Clipping
 
@@ -53,13 +53,15 @@ export const SidebarContainer = styled.nav<SidebarContainerProps>`
 
 interface BackdropProps {
     $collapsed: boolean
+    $preventAnimation: boolean
 }
 
 export const Backdrop = styled.div<BackdropProps>`
     display: block;
     position: fixed;
+    z-index:97;
 
-    animation: ${({ $collapsed }) => $collapsed ? backdropFadeOut : backdropFadeIn} 200ms linear both;
+    animation: ${({ $collapsed }) => $collapsed ? backdropFadeOut : backdropFadeIn} ${({ $preventAnimation }) => $preventAnimation ? '0ms' : '200ms'} linear both;
 
     background-color: rgba(0, 0, 0, 0.5);
 
