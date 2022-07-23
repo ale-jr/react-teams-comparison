@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom"
 import { Content, Main, PageWithNavigationContainer } from './styles'
 import links from 'routes/sidebarLinks'
 import useMenu from 'hooks/useMenu'
+
 const dummyUser: User = {
     name: "Jonh Doe",
     picture: "https://avatars.dicebear.com/api/pixel-art-neutral/xpto.svg"

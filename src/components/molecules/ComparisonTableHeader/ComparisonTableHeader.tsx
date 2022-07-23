@@ -22,7 +22,7 @@ const ComparisonTableHeader: React.FC<ComparisonTableHeaderProps> = ({ sort, onS
     return <Row>
         <HorizontalCell>
             Teams
-            <IconButton className="sort-indicator" color='primary' icon={faCaretUp} onClick={handleSortClick} aria-label={`Sorting by ${sort} teams, invert sorting order`} />
+            {sort && <IconButton className="sort-indicator" color='primary' icon={sort === "ascending" ? faCaretUp : faCaretDown} onClick={handleSortClick} aria-label={`Sorting by ${sort} teams, invert sorting order`} />}
         </HorizontalCell>
         <VerticalCell>
             <span className="cell-content"><FontAwesomeIcon className="cell-icon" icon={faComment} /> <span className="cell-label">Participation (%)</span></span>
