@@ -6,4 +6,4 @@
 
 # Documentation
 
-The full documentation is available [https://immense-gooseberry-f8f.notion.site/Documentation-5879e39f37354af284a0578f9c2f6250](here)
+The full documentation is available [here](https://immense-gooseberry-f8f.notion.site/Documentation-5879e39f37354af284a0578f9c2f6250)
