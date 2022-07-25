@@ -7,30 +7,15 @@ interface SidebarContainerProps {
 }
 
 export const SidebarContainer = styled.nav<SidebarContainerProps>`
-    //Position and Layout
-
-
-    //Display and visibility
     flex-shrink: 0;
 
-    //Clipping
-
-
-    //Animation
     animation: ${({ $collapsed }) => $collapsed ? slideOut : slideIn} ${({ $preventAnimation }) => $preventAnimation ? '0ms' : '200ms'} linear both;
     
-    //Box model (From outside in)
     height: 100%;
     border-right: 1px solid ${({ theme }) => theme.colors.neutral["200"]};
     padding-top: ${({ theme }) => theme.spacing.sm};
 
-    //Background
     background-color: ${({ theme }) => theme.colors.neutral['0']};
-
-    //Typography
-
-
-    //Pseudo-classes and pseudo-elements
 
     ul{
         padding: 0;

@@ -16,30 +16,8 @@ const avatarSizes: Sizing = {
 
 
 const Avatar = styled.img<AvatarProps>`
-    //Position and Layout
-
-
-    //Display and visibility
-
-
-    //Clipping
-
-
-    //Animation
-
-    
-    //Box model (From outside in)
     width: ${({ size }) => avatarSizes[size]};
     height: ${({ size }) => avatarSizes[size]};
-
-    //Background
-
-
-    //Typography
-
-
-    //Pseudo-classes and pseudo-elements
-
 `
 
 export default Avatar
