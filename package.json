@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.25",
-    "jest-styled-components": "^7.0.8"
+    "jest-styled-components": "^7.0.8",
+    "msw": "^0.44.2"
   }
 }
