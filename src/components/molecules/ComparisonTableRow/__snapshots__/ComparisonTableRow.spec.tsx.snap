@@ -1,0 +1,976 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComparisonTableRow Should match snapshot 1`] = `
+<DocumentFragment>
+  Team A7.03.06.09.04.011.010.012.01.05.013.08.02.0
+</DocumentFragment>
+`;
+
+exports[`ComparisonTableRow Should match snapshot 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 td {
+  padding: 0.375em 0.5em;
+  color: #1C1E2A;
+  font-weight: 600;
+  text-align: center;
+}
+
+.c0 td:first-child {
+  border: 1px solid #F1F1F5;
+  font-weight: 400;
+  text-align: start;
+}
+
+.c6 td {
+  padding: 0.375em 0.5em;
+  color: #1C1E2A;
+  font-weight: 600;
+  text-align: center;
+}
+
+.c6 td:first-child {
+  border: 1px solid #F1F1F5;
+  font-weight: 400;
+  text-align: start;
+}
+
+.c6 td:first-child {
+  font-weight: 600;
+}
+
+.c1 {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.c2 {
+  background-color: #DBF2E3;
+  border: 1px solid #DBF2E3;
+}
+
+.c3 {
+  background-color: #FFBEB8;
+  border: 1px solid #FFBEB8;
+}
+
+.c4 {
+  background-color: #9BE7B7;
+  border: 1px solid #9BE7B7;
+}
+
+.c5 {
+  background-color: #FF7777;
+  border: 1px solid #FF7777;
+}
+
+<body>
+    <div>
+      <tr
+        class="c0"
+        type="team"
+      >
+        <td
+          class="c1"
+        >
+          Team A
+        </td>
+        <td
+          class="c2"
+          value="7"
+        >
+          7.0
+        </td>
+        <td
+          class="c3"
+          value="3"
+        >
+          3.0
+        </td>
+        <td
+          class="c2"
+          value="6"
+        >
+          6.0
+        </td>
+        <td
+          class="c4"
+          value="9"
+        >
+          9.0
+        </td>
+        <td
+          class="c3"
+          value="4"
+        >
+          4.0
+        </td>
+        <td
+          class="c1"
+          value="11"
+        >
+          11.0
+        </td>
+        <td
+          class="c4"
+          value="10"
+        >
+          10.0
+        </td>
+        <td
+          class="c1"
+          value="12"
+        >
+          12.0
+        </td>
+        <td
+          class="c5"
+          value="1"
+        >
+          1.0
+        </td>
+        <td
+          class="c2"
+          value="5"
+        >
+          5.0
+        </td>
+        <td
+          class="c1"
+          value="13"
+        >
+          13.0
+        </td>
+        <td
+          class="c4"
+          value="8"
+        >
+          8.0
+        </td>
+        <td
+          class="c5"
+          value="2"
+        >
+          2.0
+        </td>
+      </tr>
+    </div>
+    <div>
+      <tr
+        class="c6"
+        type="average"
+      >
+        <td
+          class="c1"
+        >
+          Team A
+        </td>
+        <td
+          class="c2"
+          value="7"
+        >
+          7.0
+        </td>
+        <td
+          class="c3"
+          value="3"
+        >
+          3.0
+        </td>
+        <td
+          class="c2"
+          value="6"
+        >
+          6.0
+        </td>
+        <td
+          class="c4"
+          value="9"
+        >
+          9.0
+        </td>
+        <td
+          class="c3"
+          value="4"
+        >
+          4.0
+        </td>
+        <td
+          class="c1"
+          value="11"
+        >
+          11.0
+        </td>
+        <td
+          class="c4"
+          value="10"
+        >
+          10.0
+        </td>
+        <td
+          class="c1"
+          value="12"
+        >
+          12.0
+        </td>
+        <td
+          class="c5"
+          value="1"
+        >
+          1.0
+        </td>
+        <td
+          class="c2"
+          value="5"
+        >
+          5.0
+        </td>
+        <td
+          class="c1"
+          value="13"
+        >
+          13.0
+        </td>
+        <td
+          class="c4"
+          value="8"
+        >
+          8.0
+        </td>
+        <td
+          class="c5"
+          value="2"
+        >
+          2.0
+        </td>
+      </tr>
+    </div>
+  </body>,
+  "container": .c0 td {
+  padding: 0.375em 0.5em;
+  color: #1C1E2A;
+  font-weight: 600;
+  text-align: center;
+}
+
+.c0 td:first-child {
+  border: 1px solid #F1F1F5;
+  font-weight: 400;
+  text-align: start;
+}
+
+.c0 td:first-child {
+  font-weight: 600;
+}
+
+.c1 {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.c2 {
+  background-color: #DBF2E3;
+  border: 1px solid #DBF2E3;
+}
+
+.c3 {
+  background-color: #FFBEB8;
+  border: 1px solid #FFBEB8;
+}
+
+.c4 {
+  background-color: #9BE7B7;
+  border: 1px solid #9BE7B7;
+}
+
+.c5 {
+  background-color: #FF7777;
+  border: 1px solid #FF7777;
+}
+
+<div>
+    <tr
+      class="c0"
+      type="average"
+    >
+      <td
+        class="c1"
+      >
+        Team A
+      </td>
+      <td
+        class="c2"
+        value="7"
+      >
+        7.0
+      </td>
+      <td
+        class="c3"
+        value="3"
+      >
+        3.0
+      </td>
+      <td
+        class="c2"
+        value="6"
+      >
+        6.0
+      </td>
+      <td
+        class="c4"
+        value="9"
+      >
+        9.0
+      </td>
+      <td
+        class="c3"
+        value="4"
+      >
+        4.0
+      </td>
+      <td
+        class="c1"
+        value="11"
+      >
+        11.0
+      </td>
+      <td
+        class="c4"
+        value="10"
+      >
+        10.0
+      </td>
+      <td
+        class="c1"
+        value="12"
+      >
+        12.0
+      </td>
+      <td
+        class="c5"
+        value="1"
+      >
+        1.0
+      </td>
+      <td
+        class="c2"
+        value="5"
+      >
+        5.0
+      </td>
+      <td
+        class="c1"
+        value="13"
+      >
+        13.0
+      </td>
+      <td
+        class="c4"
+        value="8"
+      >
+        8.0
+      </td>
+      <td
+        class="c5"
+        value="2"
+      >
+        2.0
+      </td>
+    </tr>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`ComparisonTableRow Should match snapshot 3`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 td {
+  padding: 0.375em 0.5em;
+  color: #1C1E2A;
+  font-weight: 600;
+  text-align: center;
+}
+
+.c0 td:first-child {
+  border: 1px solid #F1F1F5;
+  font-weight: 400;
+  text-align: start;
+}
+
+.c6 td {
+  padding: 0.375em 0.5em;
+  color: #1C1E2A;
+  font-weight: 600;
+  text-align: center;
+}
+
+.c6 td:first-child {
+  border: 1px solid #F1F1F5;
+  font-weight: 400;
+  text-align: start;
+}
+
+.c6 td:first-child {
+  font-weight: 600;
+}
+
+.c7 td {
+  padding: 0.375em 0.5em;
+  color: #1C1E2A;
+  font-weight: 600;
+  text-align: center;
+}
+
+.c7 td:first-child {
+  border: 1px solid #F1F1F5;
+  font-weight: 400;
+  text-align: start;
+}
+
+.c7 td {
+  background-color: #F1F1F5;
+  border: 1px solid #F1F1F5;
+}
+
+.c7 td:first-child {
+  font-weight: 600;
+}
+
+.c1 {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.c2 {
+  background-color: #DBF2E3;
+  border: 1px solid #DBF2E3;
+}
+
+.c3 {
+  background-color: #FFBEB8;
+  border: 1px solid #FFBEB8;
+}
+
+.c4 {
+  background-color: #9BE7B7;
+  border: 1px solid #9BE7B7;
+}
+
+.c5 {
+  background-color: #FF7777;
+  border: 1px solid #FF7777;
+}
+
+<body>
+    <div>
+      <tr
+        class="c0"
+        type="team"
+      >
+        <td
+          class="c1"
+        >
+          Team A
+        </td>
+        <td
+          class="c2"
+          value="7"
+        >
+          7.0
+        </td>
+        <td
+          class="c3"
+          value="3"
+        >
+          3.0
+        </td>
+        <td
+          class="c2"
+          value="6"
+        >
+          6.0
+        </td>
+        <td
+          class="c4"
+          value="9"
+        >
+          9.0
+        </td>
+        <td
+          class="c3"
+          value="4"
+        >
+          4.0
+        </td>
+        <td
+          class="c1"
+          value="11"
+        >
+          11.0
+        </td>
+        <td
+          class="c4"
+          value="10"
+        >
+          10.0
+        </td>
+        <td
+          class="c1"
+          value="12"
+        >
+          12.0
+        </td>
+        <td
+          class="c5"
+          value="1"
+        >
+          1.0
+        </td>
+        <td
+          class="c2"
+          value="5"
+        >
+          5.0
+        </td>
+        <td
+          class="c1"
+          value="13"
+        >
+          13.0
+        </td>
+        <td
+          class="c4"
+          value="8"
+        >
+          8.0
+        </td>
+        <td
+          class="c5"
+          value="2"
+        >
+          2.0
+        </td>
+      </tr>
+    </div>
+    <div>
+      <tr
+        class="c6"
+        type="average"
+      >
+        <td
+          class="c1"
+        >
+          Team A
+        </td>
+        <td
+          class="c2"
+          value="7"
+        >
+          7.0
+        </td>
+        <td
+          class="c3"
+          value="3"
+        >
+          3.0
+        </td>
+        <td
+          class="c2"
+          value="6"
+        >
+          6.0
+        </td>
+        <td
+          class="c4"
+          value="9"
+        >
+          9.0
+        </td>
+        <td
+          class="c3"
+          value="4"
+        >
+          4.0
+        </td>
+        <td
+          class="c1"
+          value="11"
+        >
+          11.0
+        </td>
+        <td
+          class="c4"
+          value="10"
+        >
+          10.0
+        </td>
+        <td
+          class="c1"
+          value="12"
+        >
+          12.0
+        </td>
+        <td
+          class="c5"
+          value="1"
+        >
+          1.0
+        </td>
+        <td
+          class="c2"
+          value="5"
+        >
+          5.0
+        </td>
+        <td
+          class="c1"
+          value="13"
+        >
+          13.0
+        </td>
+        <td
+          class="c4"
+          value="8"
+        >
+          8.0
+        </td>
+        <td
+          class="c5"
+          value="2"
+        >
+          2.0
+        </td>
+      </tr>
+    </div>
+    <div>
+      <tr
+        class="c7"
+        type="benchmark"
+      >
+        <td
+          class="c1"
+        >
+          Team A
+        </td>
+        <td
+          class="c2"
+          value="7"
+        >
+          7.0
+        </td>
+        <td
+          class="c3"
+          value="3"
+        >
+          3.0
+        </td>
+        <td
+          class="c2"
+          value="6"
+        >
+          6.0
+        </td>
+        <td
+          class="c4"
+          value="9"
+        >
+          9.0
+        </td>
+        <td
+          class="c3"
+          value="4"
+        >
+          4.0
+        </td>
+        <td
+          class="c1"
+          value="11"
+        >
+          11.0
+        </td>
+        <td
+          class="c4"
+          value="10"
+        >
+          10.0
+        </td>
+        <td
+          class="c1"
+          value="12"
+        >
+          12.0
+        </td>
+        <td
+          class="c5"
+          value="1"
+        >
+          1.0
+        </td>
+        <td
+          class="c2"
+          value="5"
+        >
+          5.0
+        </td>
+        <td
+          class="c1"
+          value="13"
+        >
+          13.0
+        </td>
+        <td
+          class="c4"
+          value="8"
+        >
+          8.0
+        </td>
+        <td
+          class="c5"
+          value="2"
+        >
+          2.0
+        </td>
+      </tr>
+    </div>
+  </body>,
+  "container": .c0 td {
+  padding: 0.375em 0.5em;
+  color: #1C1E2A;
+  font-weight: 600;
+  text-align: center;
+}
+
+.c0 td:first-child {
+  border: 1px solid #F1F1F5;
+  font-weight: 400;
+  text-align: start;
+}
+
+.c0 td {
+  background-color: #F1F1F5;
+  border: 1px solid #F1F1F5;
+}
+
+.c0 td:first-child {
+  font-weight: 600;
+}
+
+.c1 {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.c2 {
+  background-color: #DBF2E3;
+  border: 1px solid #DBF2E3;
+}
+
+.c3 {
+  background-color: #FFBEB8;
+  border: 1px solid #FFBEB8;
+}
+
+.c4 {
+  background-color: #9BE7B7;
+  border: 1px solid #9BE7B7;
+}
+
+.c5 {
+  background-color: #FF7777;
+  border: 1px solid #FF7777;
+}
+
+<div>
+    <tr
+      class="c0"
+      type="benchmark"
+    >
+      <td
+        class="c1"
+      >
+        Team A
+      </td>
+      <td
+        class="c2"
+        value="7"
+      >
+        7.0
+      </td>
+      <td
+        class="c3"
+        value="3"
+      >
+        3.0
+      </td>
+      <td
+        class="c2"
+        value="6"
+      >
+        6.0
+      </td>
+      <td
+        class="c4"
+        value="9"
+      >
+        9.0
+      </td>
+      <td
+        class="c3"
+        value="4"
+      >
+        4.0
+      </td>
+      <td
+        class="c1"
+        value="11"
+      >
+        11.0
+      </td>
+      <td
+        class="c4"
+        value="10"
+      >
+        10.0
+      </td>
+      <td
+        class="c1"
+        value="12"
+      >
+        12.0
+      </td>
+      <td
+        class="c5"
+        value="1"
+      >
+        1.0
+      </td>
+      <td
+        class="c2"
+        value="5"
+      >
+        5.0
+      </td>
+      <td
+        class="c1"
+        value="13"
+      >
+        13.0
+      </td>
+      <td
+        class="c4"
+        value="8"
+      >
+        8.0
+      </td>
+      <td
+        class="c5"
+        value="2"
+      >
+        2.0
+      </td>
+    </tr>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
