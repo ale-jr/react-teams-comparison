@@ -8,13 +8,12 @@ interface ComparisonTableProps {
     teams: Team[],
     benchmark?: TeamValues
     average?: TeamValues
-    loading?: boolean
     sortOrder: Sort
     sortTeams: (sort: Sort) => void
 }
 
 
-const ComparisonTable: React.FC<ComparisonTableProps> = ({ teams, benchmark, average, loading, sortOrder, sortTeams }) => {
+const ComparisonTable: React.FC<ComparisonTableProps> = ({ teams, benchmark, average, sortOrder, sortTeams }) => {
 
     return <TableContainer>
         <Table>

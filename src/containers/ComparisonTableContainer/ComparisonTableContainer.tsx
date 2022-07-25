@@ -8,7 +8,7 @@ const ComparisonTableContainer: React.FC = () => {
     const { teams, loading, sortOrder, sortTeams, average, benchmark, error } = useTeamComparison()
     if (error) return <MessageContainer message={error} type="error" />
     if (loading) return <MessageContainer message="Loading teams" type="loading" />
-    return <ComparisonTable average={average} benchmark={benchmark} loading={loading} teams={teams} sortOrder={sortOrder} sortTeams={sortTeams} />
+    return <ComparisonTable average={average} benchmark={benchmark} teams={teams} sortOrder={sortOrder} sortTeams={sortTeams} />
 }
 
 export default ComparisonTableContainer
