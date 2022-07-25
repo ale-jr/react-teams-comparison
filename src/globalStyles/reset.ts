@@ -1,5 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
-
+import { createGlobalStyle } from "styled-components";
 
 //A very simple yet effective css reset, from: https://www.joshwcomeau.com/css/custom-css-reset/
 const CssReset = createGlobalStyle`
@@ -55,5 +54,5 @@ overflow-wrap: break-word;
 #root {
 isolation: isolate;
 }
-`
-export default CssReset
+`;
+export default CssReset;

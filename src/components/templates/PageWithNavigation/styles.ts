@@ -1,88 +1,66 @@
-import styled from 'styled-components'
-
-
+import styled from "styled-components";
 
 export const PageWithNavigationContainer = styled.div`
-    //Position and Layout
+  //Position and Layout
 
+  //Display and visibility
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 
-    //Display and visibility
-    display: flex;
-    flex-direction:column;
-    height: 100vh;
+  //Clipping
 
-    //Clipping
+  //Animation
 
+  //Box model (From outside in)
 
-    //Animation
+  //Background
 
-    
-    //Box model (From outside in)
+  //Typography
 
-
-    //Background
-
-
-    //Typography
-
-
-    //Pseudo-classes and pseudo-elements
-
-`
+  //Pseudo-classes and pseudo-elements
+`;
 
 export const Content = styled.div`
-        //Position and Layout
+  //Position and Layout
 
+  //Display and visibility
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
 
-    //Display and visibility
-    display: flex;
-    flex-direction:row;
-    flex-grow: 1;
+  //Clipping
 
-    //Clipping
+  //Animation
 
+  //Box model (From outside in)
+  min-height: 0px;
 
-    //Animation
+  //Background
 
-    
-    //Box model (From outside in)
-    min-height: 0px;
+  //Typography
 
-    //Background
-
-
-    //Typography
-
-
-    //Pseudo-classes and pseudo-elements
-`
+  //Pseudo-classes and pseudo-elements
+`;
 
 export const Main = styled.main`
+  //Position and Layout
 
-    //Position and Layout
+  //Display and visibility
+  flex-grow: 1;
 
+  //Clipping
+  overflow-y: auto;
 
-    //Display and visibility
-    flex-grow: 1;
-    
-    
+  //Animation
 
-    //Clipping
-    overflow-y: auto;
+  //Box model (From outside in)
+  min-height: 0px;
+  padding: ${({ theme }) => `${theme.spacing.lg} ${theme.spacing.xl}`};
 
-    //Animation
+  //Background
 
-    
-    //Box model (From outside in)
-    min-height: 0px;
-    padding: ${({ theme }) => `${theme.spacing.lg} ${theme.spacing.xl}`};
+  //Typography
 
-    //Background
-
-
-    //Typography
-
-
-    //Pseudo-classes and pseudo-elements
-    
-`
+  //Pseudo-classes and pseudo-elements
+`;

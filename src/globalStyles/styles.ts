@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
  body{
@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: ${({ theme }) => theme.typography.size.md};
     font-weight: ${({ theme }) => theme.typography.weight.regular};
     
-    background-color: ${({ theme }) => theme.colors.neutral['50']};
+    background-color: ${({ theme }) => theme.colors.neutral["50"]};
  }
 
  /* Works on Firefox */
@@ -29,6 +29,6 @@ const GlobalStyle = createGlobalStyle`
   border-radius: 20px;
   border: 3px solid transparent;
 }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;

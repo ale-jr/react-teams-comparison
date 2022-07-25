@@ -1,1 +1,1 @@
-export { default } from './ComparisonTableHeader'
+export { default } from "./ComparisonTableHeader";

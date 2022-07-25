@@ -1,1 +1,1 @@
-export { default } from './useTeamComparion'
+export { default } from "./useTeamComparion";

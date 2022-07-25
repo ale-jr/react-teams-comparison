@@ -1,8 +1,8 @@
 //there is a lot of "defaults" here, can this be misleading? 😅
-import defaultTheme from "./default"
+import defaultTheme from "./default";
 
 const themes = {
-    default: defaultTheme
-}
+  default: defaultTheme,
+};
 
-export default themes
+export default themes;

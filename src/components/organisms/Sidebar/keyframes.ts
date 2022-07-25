@@ -1,4 +1,4 @@
-import { keyframes } from 'styled-components'
+import { keyframes } from "styled-components";
 
 export const slideIn = keyframes`
   0% {
@@ -8,7 +8,7 @@ export const slideIn = keyframes`
   100% {
     width: 224px;
   }
-`
+`;
 export const slideOut = keyframes`
   0% {
     width: 224px;
@@ -16,7 +16,7 @@ export const slideOut = keyframes`
  100% {
     width: 0;
   }
-`
+`;
 
 export const ulSlideIn = keyframes`
     0%{
@@ -26,7 +26,7 @@ export const ulSlideIn = keyframes`
     100%{
         transform: translateX(0%);
     }
-`
+`;
 
 export const ulSlideOut = keyframes`
     0%{
@@ -36,7 +36,7 @@ export const ulSlideOut = keyframes`
     100%{
         transform: translateX(-100%);
     }
-`
+`;
 
 export const backdropFadeIn = keyframes`
     0%{
@@ -46,7 +46,7 @@ export const backdropFadeIn = keyframes`
     99%{
         opacity: 1;
     }
-`
+`;
 
 export const backdropFadeOut = keyframes`
     0%{
@@ -61,5 +61,4 @@ export const backdropFadeOut = keyframes`
     100%{
         width:0;
     }
-`
-
+`;

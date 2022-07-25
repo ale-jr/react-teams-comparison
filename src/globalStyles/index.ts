@@ -1,2 +1,2 @@
-export { default } from './styles'
-export { default as CssReset } from './reset'
+export { default } from "./styles";
+export { default as CssReset } from "./reset";

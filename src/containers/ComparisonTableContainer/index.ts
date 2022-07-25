@@ -1,1 +1,1 @@
-export { default } from './ComparisonTableContainer'
+export { default } from "./ComparisonTableContainer";

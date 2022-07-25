@@ -1,6 +1,6 @@
-import { fetchTeams } from './index'
+import { fetchTeams } from "./index";
 describe("team service", () => {
-    it("true", () => {
-        expect(true).toBe(true)
-    })
-})
+  it("true", () => {
+    expect(true).toBe(true);
+  });
+});

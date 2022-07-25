@@ -1,1 +1,1 @@
-export { default } from "./PageWithNavigation"
+export { default } from "./PageWithNavigation";
